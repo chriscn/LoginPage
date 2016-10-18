@@ -10,3 +10,4 @@ A login system made entirely out of PHP, CSS and HTML
 `session.php` - checks the logged in user against the database  
 `logout.php` - logouts the user when redirected to this page
 `config.php` - contains config option mainly regarding the database
+`hash.php` - contains the hashing function (salt and pepper are stored here)
