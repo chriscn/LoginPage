@@ -3,6 +3,7 @@ A login system made entirely out of PHP, CSS and HTML
 ##Features
  - All passwords are encrypted using sha256 with salt and pepper
  - Database configuration easily changed. Found in `config.php`
+ - Support for multiple login only pages
 
 ##Install
  1. Download the files from the repo
