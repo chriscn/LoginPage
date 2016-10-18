@@ -11,3 +11,5 @@ A login system made entirely out of PHP, CSS and HTML
 `logout.php` - logouts the user when redirected to this page
 `config.php` - contains config option mainly regarding the database
 `hash.php` - contains the hashing function (salt and pepper are stored here)
+##TODO
+ - `logout.php` does not exist and the function is available to all pages
