@@ -3,6 +3,12 @@ A login system made entirely out of PHP, CSS and HTML
 ##Features
  - All passwords are encrypted using sha256 with salt and pepper
  - Database configuration easily changed. Found in `config.php`
+
+##Install
+ 1. Download the files from the repo
+ 2. Create a table using the code in the `DATABASECODE` file
+ 3. Change `home.php` to whatever you want. You can also make other files just by including `sessions.php`
+ 4. Enjoy!
  
 ##Files
 `index.php` - contains the login page  
