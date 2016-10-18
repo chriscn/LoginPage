@@ -8,3 +8,4 @@ A login system made entirely out of PHP, CSS and HTML
 `home.php` - where the main things live, only accessible by logged in users
 `login.php` - contains the login script and various hashing / escaping functions  
 `session.php` - checks the logged in user against the database  
+`logout.php` - logouts the user when redirected to this page
