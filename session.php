@@ -1,4 +1,5 @@
 <?php
+	ob_start();
 	require 'config.php';
 	 
 	$con = mysqli_connect($dbserver, $dbusername , $dbpassword);

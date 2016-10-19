@@ -1,4 +1,5 @@
 <?php
+	ob_start();
 	require 'config.php';
 	require 'hash.php';
 
