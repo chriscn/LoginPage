@@ -19,7 +19,7 @@ I was tired of looking through dozen of pages trying to find a free, fast and ea
 `session.php` - checks the logged in user against the database  
 `logout.php` - logouts the user when redirected to this page  
 `config.php` - contains config option mainly regarding the database  
-`hash.php` - contains the hashing function (salt and pepper are stored here)
+`hash.php` - contains the hashing function (salt and pepper are stored here)  
 `hashes.php` - generates and then echos a hash of a password specified
 ##TODO
  - `logout.php` nolonger exist and the function is available to all pages
