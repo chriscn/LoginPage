@@ -1,5 +1,6 @@
 #Login Page
-A login system made entirely out of PHP, CSS and HTML
+A login system made entirely out of PHP, CSS and HTML  
+I was tired of looking through dozen of pages trying to find a free, fast and easy login service. Enjoy :)
 ##Features
  - All passwords are encrypted using sha256 with salt and pepper
  - Database configuration easily changed. Found in `config.php`
