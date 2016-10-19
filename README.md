@@ -7,8 +7,8 @@ A login system made entirely out of PHP, CSS and HTML
 
 ##Install
  1. Download the files from the repo
- 2. Create a table using the code in the `DATABASECODE` file
- 3. Change `home.php` to whatever you want. You can also make other files just by including `sessions.php`
+ 2. Create a table using the code `CREATE TABLE login(id int(10) NOT NULL AUTO_INCREMENT,username varchar(255) NOT NULL,password varchar(255) NOT NULL,PRIMARY KEY (id))`
+ 3. Change `home.php` to whatever you want. You can also make other files just by requiring `sessions.php`
  4. Enjoy!
  
 ##Files
@@ -19,5 +19,6 @@ A login system made entirely out of PHP, CSS and HTML
 `logout.php` - logouts the user when redirected to this page  
 `config.php` - contains config option mainly regarding the database  
 `hash.php` - contains the hashing function (salt and pepper are stored here)
+`hashes.php` - generates and then echos a hash of a password specified
 ##TODO
- - `logout.php` does not exist and the function is available to all pages
+ - `logout.php` nolonger exist and the function is available to all pages
