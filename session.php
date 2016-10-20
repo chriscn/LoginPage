@@ -4,7 +4,7 @@
 	 
 	$con = mysqli_connect($dbserver, $dbusername , $dbpassword);
 	$db = mysqli_select_db($con, $dbdatabase);
-	session_start();// Starting Session
+	session_start();
 	
 	$user_check=$_SESSION['login_user'];
 	$u_ses_sql=mysqli_query($con, "select username from $dbtable where username='$user_check'");
