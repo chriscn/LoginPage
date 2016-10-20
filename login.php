@@ -9,7 +9,7 @@
 
 	if (isset($_POST['submit'])) {
 		if (empty($_POST['username']) || empty($_POST['password'])) {
-			$error = "Username or Password is invalid";
+			$error = "Invalid username or password";
 		} else {
 			$username=$_POST['username'];
 			$password=$_POST['password'];
@@ -32,7 +32,7 @@
 				$_SESSION['login_password'] = $password;
 				echo "<script>window.location.href = '$redirectto';</script>";
 			} else {
-				$error = "Username or Password is invalid";
+				$error = "Invalid username or password";
 			}
 			
 			mysqli_close($con);
