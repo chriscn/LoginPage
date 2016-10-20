@@ -30,7 +30,7 @@
 			if ($rows == 1) {
 				$_SESSION['login_user'] = $username;
 				$_SESSION['login_password'] = $password;
-				echo "<script>window.location.href = '$redirectto';</script>";
+				header("Location: $redirectto");
 			} else {
 				$error = "Invalid username or password";
 			}
