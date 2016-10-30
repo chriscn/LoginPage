@@ -9,7 +9,7 @@
 
 	if (isset($_POST['submit'])) {
 		if (empty($_POST['username']) || empty($_POST['password'])) {
-			$error = "Invalid username or password";
+			$error = "Username or Password is incorrect";
 		} else {
 			$username=$_POST['username'];
 			$password=$_POST['password'];
@@ -32,7 +32,7 @@
 				$_SESSION['login_password'] = $password;
 				header("Location: $redirectto");
 			} else {
-				$error = "Invalid username or password";
+				$error = "Your account does not exist, please contact a developer";
 			}
 			
 			mysqli_close($con);
