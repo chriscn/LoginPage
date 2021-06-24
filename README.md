@@ -1,3 +1,5 @@
+# **Archived** 
+This project is five years old, and most likely has some security vulnerabilities; do not use it. I have left it for historical purposes.
 # Login Page
 A login system made entirely out of PHP, CSS and HTML  
 I was tired of looking through dozen of pages trying to find a free, fast and easy login service. Enjoy :)
